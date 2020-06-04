@@ -16,4 +16,39 @@ Following are the specifications followed as per the authors:
 - Bias initialization = Zeros
 - L2 Regularization
 
-PS. Will add a presentation soon for the same
+Model sizes -
+
+Model: "encoder_4"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_8 (Embedding)      multiple                  18600000  
+_________________________________________________________________
+bidirectional_4 (Bidirection multiple                  9732000   
+=================================================================
+Total params: 28,332,000
+Trainable params: 28,332,000
+Non-trainable params: 0
+_________________________________________________________________
+
+Model: "decoder_4"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_9 (Embedding)      multiple                  18600000  
+_________________________________________________________________
+gru_9 (GRU)                  multiple                  10866000  
+_________________________________________________________________
+attention_4 (Attention)      multiple                  3003001   
+_________________________________________________________________
+dense_19 (Dense)             multiple                  30030000  
+=================================================================
+Total params: 62,499,001
+Trainable params: 62,499,001
+Non-trainable params: 0
+_________________________________________________________________
+
+Total number of parameters = 28,332,000 + 62,499,001
+                           = **90,831,001**
+                           
+PS. Presentation will be uploaded soon
