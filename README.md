@@ -4,7 +4,7 @@
 
 Find the paper at https://arxiv.org/pdf/1409.0473.pdf
 
-For detailed implementation with replicated results, use NMT_6400000 
+For detailed implementation with replicated results, use **NMT_6400000** 
 
 Following are the specifications followed as per the authors: 
 - AdaDelta Optimizer with epsilon = 10-6 , rho = 0.95 
