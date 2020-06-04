@@ -16,7 +16,7 @@ Following are the specifications followed as per the authors:
 - Bias initialization = Zeros
 - L2 Regularization
 
-Total number of parameters = 28,332,000 (Encoder) + 52,496,000 (Attention) + 3,003,001 (Decoder)
+Total number of parameters = 28,332,000 (Encoder) + 3,003,001 (Attention) + 52,496,000 (Decoder)
                            = **90,831,001**
                            
 PS. Presentation will be uploaded soon
