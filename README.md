@@ -19,4 +19,4 @@ Following are the specifications followed as per the authors:
 Total number of parameters = 28,332,000 (Encoder) + 3,003,001 (Attention) + 52,496,000 (Decoder)
                            = **90,831,001**
                            
-Use Presentation.pdf for a better understanding
+Use Presentation.pdf for a better understanding.
