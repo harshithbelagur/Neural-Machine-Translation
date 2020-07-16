@@ -1,6 +1,6 @@
 # Neural Machine Translation
 
-## TensorFlow 2.0 implementation of the popular NLP paper by Bahdanau et al. - Neural Machine Translation by Jointly Learning to Align and Translate (ICLR, 2015) 
+## TensorFlow 2.0 implementation of the popular NLP paper by Bahdanau et al. - Neural Machine Translation by Jointly Learning to Align and Translate (ICLR, 2015)
 
 Find the paper at https://arxiv.org/pdf/1409.0473.pdf
 
